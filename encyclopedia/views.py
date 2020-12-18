@@ -9,5 +9,6 @@ def index(request):
     })
 
 def title(request, title):
+    
     return render(request, "encyclopedia/index.html") # now we inject our title to the page somehow 
     # make sure it checks if title exists, if not display missing page or whatever 
